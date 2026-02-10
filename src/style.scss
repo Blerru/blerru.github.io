@@ -1,0 +1,48 @@
+:root {
+    color-scheme: light;
+
+    --text: hsl(0deg 0% 3%);
+    --text-anchor: #248ef4ff;
+    --text-anchor-visited: #3342f5ff;
+    --background-primary: hsl(0deg 0% 97%);
+
+    --spacing-1: 1rem;
+}
+
+body {
+    margin: 0 var(--spacing-1);
+    color: var(--text);
+    background-color: var(--background-primary);
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+main {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1rem;
+    margin: var(--spacing-1) 0;
+}
+
+ul {
+    list-style-type: "- ";
+}
+
+a {
+    color: var(--text-anchor);
+}
+
+a:visited {
+    color: var(--text-anchor-visited);
+}
+
+sup {
+    font-size: 0.75rem;
+}
